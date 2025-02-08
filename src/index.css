@@ -70,3 +70,60 @@ button:focus-visible {
 .colorchange button{
   background-color: #242424;
 }
+
+.content{
+  background-color: #213547;
+  text-align: center;
+  width: 600px;
+  min-height:600px ;
+  border-radius: 18px;
+  box-shadow: 0 0 10px white;
+}
+.content h1{
+  color: #f9f9f9;
+}
+.content input{
+  width: 300px;
+  padding: 15px;
+  border-radius: 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+border: 1px solid white;
+}
+
+.content input::placeholder{
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.mainfield{
+display: flex;
+flex-wrap:wrap ;
+justify-content: space-between;
+margin-top: 10px;
+background-color: #0707075a;
+backdrop-filter: blur(10px);
+padding: 9px;
+}
+.mainfield p{
+  font-weight: 700;
+  text-shadow: 0  0 20px red;
+  margin-left: 25px;
+  font-size:20px ;
+
+
+}
+.mainfield button{
+  padding: 5px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.updatebtn{
+  background-color: rgb(189, 82, 43);
+
+}
+.dltbtn{
+  background-color: red;
+}
